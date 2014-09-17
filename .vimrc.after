@@ -1,0 +1,3 @@
+color base16-solarized
+set noexpandtab
+map <Leader>ff :CtrlP<CR>
