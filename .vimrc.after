@@ -1,8 +1,16 @@
-color base16-solarized
+color solarized
 set noexpandtab
+set autoindent
+map <Leader>w <C-W><C-W>
 map <Leader>ff :CtrlP<CR>
 nnoremap <Tab> >>_
 nnoremap <S-Tab> <<_
 inoremap <S-Tab> <C-D>
 vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
+nnoremap <Leader>ps :set invpaste paste?<CR>
+set pastetoggle=<Leader>ps
+set nobackup
+set nowritebackup
+set noswapfile
+set showmode
