@@ -5,3 +5,6 @@ let g:Powerline_symbols = 'fancy'
 
 " Use my mapleader, not Janus's \ (Did you catch that?)
 let mapleader = ","
+
+" Redraw better
+set lazyredraw
