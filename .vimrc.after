@@ -1,16 +1,31 @@
 color solarized
-set noexpandtab
-set autoindent
+set noexpandtab " Because I love tabs, not spaces.
+set autoindent " Better than smartindent
+
+" Switch windows with a Leader
 map <Leader>w <C-W><C-W>
+
+" Fuzzy Finder via Leader
 map <Leader>ff :CtrlP<CR>
+
+" Fix Whitespace with a Leader
+map <Leader>fw :FixWhitespace<CR>
+
+" Tab using tab key, duh
 nnoremap <Tab> >>_
 nnoremap <S-Tab> <<_
 inoremap <S-Tab> <C-D>
 vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
+
+" When pasting from outside Vim, just it Leader>ps
 nnoremap <Leader>ps :set invpaste paste?<CR>
 set pastetoggle=<Leader>ps
+
+" Don't clutter my FS!
 set nobackup
 set nowritebackup
 set noswapfile
-set showmode
+
+" Reload .vimrc with easy key
+map <Leader>rl :source ~/.vimrc<CR>

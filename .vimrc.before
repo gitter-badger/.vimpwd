@@ -1,4 +1,7 @@
+" Powerline stuff to make it look cool
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:Powerline_symbols = 'fancy'
+
+" Use my mapleader, not Janus's \ (Did you catch that?)
 let mapleader = ","
