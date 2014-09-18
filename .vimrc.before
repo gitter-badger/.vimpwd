@@ -8,3 +8,8 @@ let mapleader = ","
 
 " Redraw better
 set lazyredraw
+
+" Mouse selects buffer
+imap <RightMouse> <Esc>
+nmap <RightMouse> <Esc>
+set mouse=a
