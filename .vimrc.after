@@ -1,3 +1,8 @@
 color base16-solarized
 set noexpandtab
 map <Leader>ff :CtrlP<CR>
+nnoremap <Tab> >>_
+nnoremap <S-Tab> <<_
+inoremap <S-Tab> <C-D>
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
