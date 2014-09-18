@@ -13,3 +13,5 @@ set lazyredraw
 imap <RightMouse> <Esc>
 nmap <RightMouse> <Esc>
 set mouse=a
+
+set autoindent " Better than smartindent

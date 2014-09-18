@@ -1,6 +1,5 @@
 color solarized
 set noexpandtab " Because I love tabs, not spaces.
-set autoindent " Better than smartindent
 
 " Switch windows with a Leader
 map <Leader>w <C-W><C-W>
