@@ -20,6 +20,7 @@ vnoremap <S-Tab> <gv
 " When pasting from outside Vim, just it Leader>ps
 nnoremap <Leader>ps :set invpaste paste?<CR>
 set pastetoggle=<Leader>ps
+set invpaste paste
 
 " Don't clutter my FS!
 set nobackup
@@ -33,8 +34,8 @@ map <Leader>rl :source ~/.vimrc<CR>
 map <Leader>mk :mksession<CR>
 
 " Edit .vimrc easily
-map <Leader>ea:vsp .vimrc.after<CR>
-map <Leader>eb :vsp .vimrc.before<CR>
+map <Leader>ea :vsp ~/.vimrc.after<CR>
+map <Leader>eb :vsp ~/.vimrc.before<CR>
 
 nmap <leader>p <Plug>yankstack_substitute_older_paste
 nmap <leader>P <Plug>yankstack_substitute_newer_paste
