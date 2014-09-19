@@ -15,3 +15,6 @@ nmap <RightMouse> <Esc>
 set mouse=a
 
 set autoindent " Better than smartindent
+
+" Copy and paste from the system clipboard please
+set clipboard=unnamed
