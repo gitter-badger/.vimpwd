@@ -20,7 +20,6 @@ vnoremap <S-Tab> <gv
 " When pasting from outside Vim, just it Leader>ps
 nnoremap <Leader>ps :set invpaste paste?<CR>
 set pastetoggle=<Leader>ps
-set invpaste paste
 
 " Don't clutter my FS!
 set nobackup
