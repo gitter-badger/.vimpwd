@@ -55,3 +55,11 @@ let g:indentLine_char = ':'
 highlight NonText ctermfg=darkgrey
 highlight SpecialKey ctermfg=darkgrey
 let g:indentLine_color_term=8
+
+" Conque
+let g:ConqueTerm_FastMode = 0
+let g:ConqueTerm_Color = 1
+let g:ConqueTerm_TERM = 'xterm'
+let g:ConqueTerm_PromptRegex = '^\w\+@[0-9A-Za-z_.-]\+:[0-9A-Za-z_./\~,:-]\+\$'
+nnoremap <Leader>bs :ConqueTermSplit bash --rcfile ~/.bash_profile<CR>
+nnoremap <Leader>tt :ConqueTermSplit bash --rcfile ~/.bash_profile<CR>
