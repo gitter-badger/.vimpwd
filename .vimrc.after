@@ -1,5 +1,6 @@
 "color solarized
 set noexpandtab " Because I love tabs, not spaces.
+set ts=4 sw=4 et
 
 " Switch windows with a Leader
 map <Leader>w <C-W><C-W>
@@ -44,3 +45,6 @@ endif
 
 " Load changes to files live
 :set autoread
+
+" Show invisibles
+set listchars=tab:\|\ ,eol:¬

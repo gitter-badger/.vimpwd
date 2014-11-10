@@ -4,3 +4,6 @@
 [submodule ".janus/greplace.vim"]
 	path = .janus/greplace.vim
 	url = https://github.com/skwp/greplace.vim
+[submodule ".janus/indentLine"]
+	path = .janus/indentLine
+	url = https://github.com/Yggdroot/indentLine
