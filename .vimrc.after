@@ -43,7 +43,7 @@ inoremap jj <ESC>
 " Change cursor shape between insert and normal mode in iTerm2.app
 if $TERM_PROGRAM =~ "iTerm"
     let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
-    let &t_EI = "\<Esc,]50;CursorShape=0\x7" " Block in normal mode
+    let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
 endif
 
 " Load changes to files live
@@ -61,7 +61,7 @@ let g:ConqueTerm_FastMode = 0
 let g:ConqueTerm_Color = 1
 let g:ConqueTerm_TERM = 'xterm'
 let g:ConqueTerm_PromptRegex = '^\w\+@[0-9A-Za-z_.-]\+:[0-9A-Za-z_./\~,:-]\+\$'
-nnoremap <Leader>tt :ConqueTermSplit bash --rcfile ~/.bash_profile | set listchars=trail:\ <CR>
+nnoremap <Leader>tt :ConqueTermSplit bash --rcfile ~/.bash_profile<CR>
 
 " Don't show | on vsplit (ugly)
 :set fillchars+=vert:\ 
