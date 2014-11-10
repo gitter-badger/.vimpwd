@@ -1,0 +1,6 @@
+[submodule ".janus/vim-airline"]
+	path = .janus/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule ".janus/greplace.vim"]
+	path = .janus/greplace.vim
+	url = https://github.com/skwp/greplace.vim
