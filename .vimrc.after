@@ -63,3 +63,6 @@ let g:ConqueTerm_TERM = 'xterm'
 let g:ConqueTerm_PromptRegex = '^\w\+@[0-9A-Za-z_.-]\+:[0-9A-Za-z_./\~,:-]\+\$'
 nnoremap <Leader>bs :ConqueTermSplit bash --rcfile ~/.bash_profile<CR>
 nnoremap <Leader>tt :ConqueTermSplit bash --rcfile ~/.bash_profile<CR>
+
+" Don't show | on vsplit (ugly)
+:set fillchars+=vert:\ 
