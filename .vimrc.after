@@ -1,4 +1,4 @@
-color solarized
+"color solarized
 set noexpandtab " Because I love tabs, not spaces.
 
 " Switch windows with a Leader
