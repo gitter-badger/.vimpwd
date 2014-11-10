@@ -47,4 +47,8 @@ endif
 :set autoread
 
 " Show invisibles
-set listchars=tab:\|\ ,eol:¬
+set listchars=tab:\|\ ,eol:¬,trail:~
+let g:indentLine_char = ':'
+highlight NonText ctermfg=darkgrey
+highlight SpecialKey ctermfg=darkgrey
+let g:indentLine_color_term=8
